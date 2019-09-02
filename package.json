@@ -1,0 +1,33 @@
+{
+  "name": "dtazvjs",
+  "version": "1.0.0",
+  "description": "DTAZV Parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "webpack-dev-server --mode development",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urbiwanus/dtazvjs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urbiwanus/dtazvjs/issues"
+  },
+  "homepage": "https://github.com/Urbiwanus/dtazvjs#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {}
+}
